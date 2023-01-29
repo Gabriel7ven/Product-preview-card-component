@@ -111,11 +111,11 @@ button:hover {
 }
 
 /*---------------RESPONSIVIDADE--------------*/
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
 
 .painel-principal {
     min-width: 375px;
-    height: 600px;
+    height: 75%;
 }
 
 .img-perfume {
