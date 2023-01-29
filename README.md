@@ -7,7 +7,7 @@ Overview: This is my third project. It is my answer to the challenge proposed by
 Build with: Project made with HTML and CSS Flexbox.
 
 Learning:
-    New skill: This is may new skill, and was my biggest challenge too: to change the image when device's screen size changes too.
+    New skill -- This is my new skill, and was my biggest challenge too: to change the image when device's screen size changes too.
     
 Useful tools: I used INKSCAPE to add "border-radius" to the image, but you can do it with another tool like Figma.
 
