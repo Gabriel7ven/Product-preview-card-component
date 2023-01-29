@@ -1,0 +1,142 @@
+*,
+*:after,
+*:before {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+body {
+    font:100%;
+    list-style-type:none;
+    font-family: 'Montserrat', 'Fraunces', Helvetica, sans-serif;
+}
+
+.container {
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.painel-principal {
+    width: 600px;
+    height: 450px;
+    border-radius: 18px;
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+}
+
+/*---------IMAGEM-----------*/
+.img-perfume {
+    width: 50%;
+    height: 100%;
+    background-image: url("images/image-product-desktop.jpg");
+    background-size: 100%;
+    border-radius: 18px 0 0 18px;
+}
+
+/*---------------TEXTO--------------------*/
+.palavra-perfume {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.texto {
+    width: 50%;
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 30px;
+    color: hsl(228, 12%, 48%);
+}
+
+h1 {
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom:18px;
+    font-size: 35px;
+    font-family: 'Fraunces', Helvetica, sans-serif;
+    color: black;
+}
+
+
+p {
+    font-size: 14px;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.preco-atual {
+    font-family:'Fraunces', Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 35px;
+    color:hsl(158, 36%, 37%);
+}
+
+.preco-anterior {
+    text-decoration: line-through;
+    vertical-align: top;
+    margin-top: 36px;
+    margin-left: 20px;
+    color:rgb(95, 93, 93);
+}
+
+/*--------BOTÃO-----------------*/
+.botao {
+    position: relative;
+    margin-top: 35px;
+}
+.botao button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(182, 44%, 47%);
+    color: hsl(0, 0%, 100%);
+}
+.carrinho {
+    position: absolute;
+    top:50%;
+    left: 24%;
+    transform: translateY(-50%);
+}
+
+/*---------------RESPONSIVIDADE--------------*/
+@media only screen and (max-width: 375px) {
+
+.painel-principal {
+    width: 340px;
+    height: 620px;
+}
+
+.img-perfume {
+    width: 100%;
+    height: 238px;
+    background-image: url("images/image-product-mobile.jpg");
+     border-radius: 18px 18px 0 0px;
+}
+
+.texto {
+    width: 100%;
+    position: relative;
+    padding: 20px 20px 30px 25px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.botao {
+    margin-top: 20px;
+}
+}
