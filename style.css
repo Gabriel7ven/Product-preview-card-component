@@ -22,7 +22,7 @@ body {
 }
 
 .painel-principal {
-    min-width: 600px;
+    width: 600px;
     height: 450px;
     border-radius: 18px;
     background-color: hsl(0, 0%, 100%);
