@@ -12,7 +12,7 @@ Learning:
 Useful tools: I used INKSCAPE to add "border-radius" to the image, but you can do it with another tool like Figma.
 
 PORTUGUESE
-Olá, Bem-vindo ao README do projeto may.
+Olá, Bem-vindo ao README do meu projeto.
 
 Desafio "Product preview card component" concluído com sucesso.
 
